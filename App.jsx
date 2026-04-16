@@ -77,7 +77,7 @@ const Banner = ({ type }) => {
         <defs><linearGradient id="flg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stopColor="#ECFDF5"/><stop offset="100%" stopColor="#D1FAE5"/></linearGradient></defs>
         <rect width="400" height="130" fill="url(#flg)" rx="18"/>
         {/* Plate shape */}
-        <ellipse cx="310" cy="65" rx="55" ry="45" fill="#10B981" opacity="0.06" stroke="#10B981" strokeWidth="1.5" opacity="0.1"/>
+        <ellipse cx="310" cy="65" rx="55" ry="45" fill="#10B981" stroke="#10B981" strokeWidth="1.5" opacity="0.1"/>
         <ellipse cx="310" cy="65" rx="38" ry="30" fill="#10B981" opacity="0.04"/>
         <text x="24" y="50" fill="#065F46" fontSize="28">🥗</text>
         <text x="24" y="80" fill="#065F46" fontSize="15" fontWeight="700" fontFamily={F} opacity="0.5">Nutrition Plan</text>
